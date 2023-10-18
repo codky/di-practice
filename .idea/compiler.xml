@@ -6,6 +6,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="di-practice.main" options="--add-modules java.base" />
+      <module name="di-practice.test" options="--add-modules java.base" />
     </option>
   </component>
 </project>

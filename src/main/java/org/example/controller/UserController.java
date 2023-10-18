@@ -12,4 +12,12 @@ public class UserController {
     public UserController(UserService userService) {
         this.userService = userService;
     }
+
+    public UserService userService() {
+        return userService;
+    }
+
+    public UserService getUserService() {
+        return userService;
+    }
 }
